@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coaching Institute</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Elite Coaching Institute</h1>
+        <nav>
+            <ul>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <div class="course-list">
+            <div class="course-card">
+                <h3>Java Programming</h3>
+                <p>Learn core Java and OOP concepts with hands-on projects.</p>
+            </div>
+            <div class="course-card">
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript, and modern frameworks for full-stack development.</p>
+            </div>
+            <div class="course-card">
+                <h3>Data Science</h3>
+                <p>Python, ML, AI, and data analysis techniques for real-world problems.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We provide quality coaching and mentorship to students to excel in competitive exams and skill-based courses.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="responseMsg"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Elite Coaching Institute. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
